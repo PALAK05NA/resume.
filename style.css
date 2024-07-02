@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ba7373;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 5px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for different sections */
+.education, .experience, .skills {
+    margin-bottom: 30px;
+}
+
+.entry {
+    margin-bottom: 15px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .resume {
+        padding: 10px;
+    }
+}
